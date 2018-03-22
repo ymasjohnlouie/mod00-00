@@ -1,3 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
 body {
 	/*background-color: red;*/
+
+}
+
+#main-section {
+	background-color: red;
+}
+
+.my-picture {
+	height: 150px;
+	padding: 3px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+
+#portfolio-section {
+	background-color: orange;
+}
+
+#skills-section {
+	background-color: yellow;
+}
+
+#about-section {
+	background-color: green;
+}
+
+#main-section,
+#portfolio-section,
+#skills-section,
+#about-section {
+	height: 100vh;
 }
