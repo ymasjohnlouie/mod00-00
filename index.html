@@ -5,6 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
+	<!-- Loads favicon -->
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
 	<title>John Louie Ymas - My Web Developer Portfolio</title>
 
 	<!-- Imports custom stylesheets -->
@@ -20,28 +26,27 @@
 
 		<!-- Main Header -->
 		<section id="main-section">
+					<div id="link1">
+						<a href="mailto:johnlouieymas@gmail.com"><i class="far fa-envelope"></i> johnlouieymas@gmail.com</a>
+					</div>
 
-			<!-- <img class ="backgroundimg" src="assets/img/motherboard.jpg"> -->
-		
-		<section>
-			<a href="mailto:johnlouieymas@gmail.com">johnlouieymas@gmail.com
-			</a>
-
-			<a href="https://www.linkedin.com/in/john-louie-ymas-045991117/">LinkedIn Account</a>
-			
-			<a href="https://github.com/ymasjohnlouie">github.com/ymasjohnlouie</a>
-
-		</section>
+					<div id="link2">
+						<a href="https://www.linkedin.com/in/john-louie-ymas-045991117/"><i class="fab fa-linkedin"></i> LinkedIn Account</a>
+					</div>
+				
+					<div id="link3">
+						<a href="https://github.com/ymasjohnlouie"><i class="fab fa-github"></i> github.com/ymasjohnlouie</a>
+					</div>
 
 			<div class="about">
-				<img class="my-picture" src="assets/img/me.jpg">
+				<img class="my-picture" src="assets/img/mine.jpg">
 
 			<h1>John Louie M. Ymas</h1>
 
 			<h2 id="dev-description">Full-Stack Web Developer</h2>
 
-			<p class="bio">I am Computer Engineering graduate last 2010 and a Tuitt Coding Bootcamp Trainee. I worked in different BPO companies for more than 7 years. I want to work as a Web Developer in a well-known company so that I can apply all of my skills and knowledge for my benefit and company's profitability.</p>
-		</div>
+				<p class="bio">I am Computer Engineering graduate last 2010 and a Tuitt Coding Bootcamp Trainee. I worked in different BPO companies for more than 7 years. I want to work as a Web Developer in a well-known company so that I can apply all of my skills and knowledge for my benefit and company's profitability.</p>
+			</div>
 		</section>
 
 		<!-- Portfolio section -->
@@ -85,11 +90,71 @@
 		<!-- Skills section -->
 		<section id="skills-section">
 			<h2 id="mini-section">Skills Section</h2>
+
+			<div id="skills-sect">
+				<div class="skills-sect-1 frontend">
+					<h3>Front-End Development</h3>
+						<div class="skills-sect-2">
+						<p>Collection of front-end development badges</p>
+					</div>
+				</div>
+				<div class="skills-sect-1 backend">
+					<h3>Back-End Development</h3>
+					<div class="skills-sect-2">
+						<p>Collection of back-end development badges</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<!-- About/Contact section -->
 		<section id="about-section">
 			<h2 id="mini-section">About Section</h2>
+
+			<div id="about-sect">
+				<div class="about-sect-1">
+					<h3>About Me</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<footer>
+						<p>Copyright &copy; 2018 by John Louie Ymas</p>
+					</footer>
+				</div>
+
+					<div class="about-sect-2">
+					<h3>Contact Me</h3>
+
+					<form action="" method="">
+						<label for="username">Name</label>
+						<input type="text" name="username" id="username" placeholder="Enter your name"></label>
+
+						<label for="useremail">Email Address</label>
+						<input type="email" name="useremail" id="useremail" placeholder="Enter your email address">
+
+						<label for="message">Message</label>
+						<textarea id="message" placeholder="Enter your message"></textarea>
+
+						<input type="submit" name="submit" value="Send Message">
+					</form>
+				</div>
+			</div>
 		</section>
 
 	</main>

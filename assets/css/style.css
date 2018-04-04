@@ -5,13 +5,24 @@
 	font-family: 'Titillium Web', sans-serif;
 }
 
-/*body {*/
-	/*background-color: red;*/
-	/*background: linear-gradient(green, yellow);*/
-/*}*/
-
 #main-section {
 	background-image: url(https://wallpaperscraft.com/image/chip_computer_microchip_processor_5659_1280x1024.jpg);
+}
+
+div#link1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div#link2 {
+	text-align: center;
+}
+
+div#link3 {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 section#main-section > a {
@@ -19,23 +30,6 @@ section#main-section > a {
 	text-decoration: none;
 	padding: 15px;
 	display: block;
-}
-
-a[href="johnlouieymas@gmail.com"]{
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-a[href="https://www.linkedin.com/in/john-louie-ymas-045991117/"]{	*/
-	position: absolute;
-	top: 0;
-}
-
-a[href="https://github.com/ymasjohnlouie"]{
-	position: absolute;
-	top: 0;
-	right: 0;
 }
 
 .about{
@@ -67,7 +61,8 @@ h1 {
 #dev-description {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	text-shadow: 3px 2px cyan;
+	text-shadow: 3px 2px yellow;
+	color: #33ccff;
 }
 
 section#portfolio-section > h2,
@@ -77,8 +72,26 @@ section#about-section > h2 {
 	text-align: center;
 }
 
+a {
+	color: cyan;
+}
+
+#link1 {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#link2 {
+	padding-top: 10px;
+}
+
+#link3 {
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
 #portfolio-section {
-	background: linear-gradient(#0000ff, #4d4dff);
+	background: linear-gradient(indigo, #4d4dff);
 }
 
 div#portfolio-sect-1 {
@@ -94,6 +107,7 @@ div#portfolio-sect-1 {
 .portfolio-sect-2 > img {
 	width: 100%;
 }
+
 
 .portfolio-sect-2 {
 	padding: 20px 0;
@@ -123,11 +137,53 @@ div#portfolio-sect-1 {
 }
 
 #skills-section {
-	background: linear-gradient(blue, orange);
+	background: linear-gradient(blue, cyan);
+}
+
+#skills-sect {
+	height: 80%;
+	text-align: center;
+}
+
+.skills-sect-1 {
+	width: 49%;
+	display: inline-block;
+	height: 100%;
+}
+
+.skills-sect-1 > h3 {
+	height: 10%;
+}
+
+.skills-sect-2 {
+	background-color: grey;
+	height: 90%;
+}
+
+.frontend {
+	background-color: red;
+}
+
+.backend {
+	background-color: orange;
 }
 
 #about-section {
-	background: linear-gradient(red, yellow);
+	background: linear-gradient(green, yellow);
+}
+
+#about-sect {
+	background-color: lightblue;
+	height: 80%;
+	text-align: center;
+}
+
+#about-sect > .about-sect-1,
+#about-sect > .about-sect-2 {
+	width: 49%;
+	display: inline-block;
+	height: 100%;
+	overflow-x: auto;
 }
 
 #main-section,
@@ -154,17 +210,15 @@ p.bio {
 
 a:link {
 	text-decoration: none;
-	/*color: white;*/
 }
-a:visited {
-	
-}
+
 a:hover {
 	text-decoration: underline;
+	color: white;
 }
-a:focus {
 
-}
 a:active {
-	
+	color: blue;
 }
+
+
